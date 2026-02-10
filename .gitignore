@@ -1,2 +1,4 @@
 tpm/
 tmp/*
+bin/
+bin/*

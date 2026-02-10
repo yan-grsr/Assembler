@@ -13,7 +13,7 @@ print:              ; print Hello World in console
     mov rdi, 1      
     mov rsi, msg    
     mov rdx, 13     
-    syscall         
+    syscall        
     
 _exit:              ; exit the program using syscall
     mov rax, 60    
